@@ -12,3 +12,13 @@ To analyze the performance of the sorting algorithms, the program calculates GFL
 Overall, this project provides a comprehensive analysis of the performance of parallel and distributed sorting algorithms using MPI and demonstrates their effectiveness in improving the efficiency of sorting large datasets.
 
 NOTE: To run these files, commands are given on first lines of respective files. This code is ubuntu compatible only.
+
+Step 1: Run makearray.cpp file
+  1) g++ makearray.cpp -o array.exe 
+  2) .\array 
+
+Step 2: Run Q1.cpp file (Without MPI)
+  3) g++ Q1.cpp -o q1.exe 
+  4) .\q1 11.txt 11sorted.txt 
+
+Step 3: Run Q2.cpp file
