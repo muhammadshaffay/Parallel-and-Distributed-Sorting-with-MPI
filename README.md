@@ -13,14 +13,8 @@ Overall, this project provides a comprehensive analysis of the performance of pa
 
 NOTE: To run these files, commands are given on first lines of respective files. This code is ubuntu compatible only.
 
-Step 1: Run makearray.cpp file
- 1) g++ makearray.cpp -o array.exe 
- 2) .\array 
+Step 1: Run makearray.cpp file<br> 1) g++ makearray.cpp -o array.exe<br> 2) .\array 
 
-Step 2: Run Q1.cpp file (Without MPI)
- 3) g++ Q1.cpp -o q1.exe 
- 4) .\q1 11.txt 11sorted.txt 
+Step 2: Run Q1.cpp file (Without MPI)<br> 3) g++ Q1.cpp -o q1.exe<br> 4) .\q1 11.txt 11sorted.txt
 
-Step 3: Run Q2.cpp file
- 5) sudo mpicc Q2.c -o out -lm 
- 6) sudo mpiexec -n 4 ./out 11.txt
+Step 3: Run Q2.cpp file<br> 5) sudo mpicc Q2.c -o out -lm<br> 6) sudo mpiexec -n 4 ./out 11.txt
